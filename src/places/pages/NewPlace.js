@@ -76,7 +76,7 @@ function NewPlace() {
         </div> 
         <div>
           <input ref={ref} type='file'style={{display:'none'}}  onChange={changeHandler}  />
-          <div className='img'  >
+          <div className='img'>
           {avatar && <img className='img' src={avatar?URL.createObjectURL(avatar):""} alt='Preview'  /> }
           {!avatar && <p className='preview' >Preview</p>}
           </div>

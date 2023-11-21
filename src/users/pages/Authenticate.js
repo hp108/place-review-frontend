@@ -7,6 +7,7 @@ import TailSpin from "../../shared/components/Loaders/TailSpin";
 import ErrorModal from "../../shared/components/Errors/ErrorModal";
 import { useHttpClient } from "../../shared/hooks/http-hook";
 import { useRef } from "react";
+import '../../places/pages/NewPlace.css'
 
 function Authenticate() {
   const [islogin, loginFun] = useRecoilState(loginHandler);
