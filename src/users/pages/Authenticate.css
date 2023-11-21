@@ -1,0 +1,56 @@
+.form-element{
+    width: max(25%,17rem);
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: larger;
+}
+
+.form-element label{
+    margin-bottom: 5px;
+}
+
+.form__total{
+    /* text-align: center; */
+    width: max(25%,20rem);
+    margin: auto;
+    padding-bottom: 10px;
+    font-size: large;
+    border: 2px solid rgba(120, 87, 170, 0.158);
+    box-shadow: 2px 2px 8px rgba(52, 9, 127, 0.736);
+    background-color: rgba(120, 87, 170, 0.158);
+}
+
+.button__1,.button__2{
+    text-align: center;
+}
+.button__1 button{
+    border: none;
+    padding: 7px;
+    border-radius: 10%;
+    border: 1px solid rgb(46, 167, 48);
+    color: green;
+    background-color: rgb(178, 204, 226);
+    margin-bottom: 0.5rem;
+
+}
+.button__2 button{
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px dashed rgb(167, 46, 46);
+    color: red;
+    background-color: rgb(242, 218, 218);
+    margin-bottom: 0.5rem;
+}
+
+.user_form__password{
+    margin-bottom: 20px;
+}
+.main{
+    padding: 2rem;
+}
+
+.user__button{
+    margin: 0;
+}

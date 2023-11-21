@@ -1,0 +1,11 @@
+.error{
+    font-size: large;
+    text-align: center;
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    border: 2px solid red;
+    box-shadow: 3px 3px 15px red;
+}
+

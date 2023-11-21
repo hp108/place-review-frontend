@@ -1,0 +1,9 @@
+
+  .tail-spin-spinner {
+    position: absolute;
+     width: 100vw;
+     height: 85vh;
+     padding: 10rem 45%;
+    backdrop-filter: blur(10px);
+  }
+  

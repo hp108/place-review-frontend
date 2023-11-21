@@ -1,0 +1,28 @@
+ul{
+    padding: 0;
+    text-decoration: none;
+}
+
+.no__places{
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+    width: max(50%,8rem);
+    padding: 2rem;
+    box-shadow: 2px 3px 15px rgb(173, 70, 70);
+}
+.no__places h2{
+    margin-bottom: 1rem;
+}
+.no__places a div{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 3px;
+    box-shadow: 2px 3px 8px rgb(17, 203, 147);
+    margin: auto;
+}
+.no__places a{
+    
+    text-decoration: none;
+    font-weight: bolder;
+}
+

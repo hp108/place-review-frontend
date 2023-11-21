@@ -1,0 +1,10 @@
+.leaflet-container{
+    height: 100vh;
+  }
+  .btn{
+    z-index: 100;
+  }
+  .marker{
+    position: absolute;
+    top: 30px;
+  }
