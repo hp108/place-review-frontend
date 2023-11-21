@@ -7,6 +7,7 @@ import TailSpin from '../../shared/components/Loaders/TailSpin'
 import ErrorModal from '../../shared/components/Errors/ErrorModal'
 import {authState} from '../../shared/recoilState/authState.js'
 import { useRecoilValue } from 'recoil'
+import './NewPlace.css'
 
 
 function UpdatePlace() {
