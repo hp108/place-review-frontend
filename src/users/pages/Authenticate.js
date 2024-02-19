@@ -58,7 +58,10 @@ function Authenticate() {
           newUser
         );
         if (response) {
-          loginFun(response.data.userId, response.data.token);
+          loginFun({
+            userId: response.data.userId,
+            token: response.data.token,
+          });
           navigate("/");
         }
       } catch (err) {}
